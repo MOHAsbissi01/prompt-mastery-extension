@@ -1,0 +1,12 @@
+.prompt-pro-label {
+    color: #888888 !important;
+    font-style: italic;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+/* Optional: adds a subtle highlight to the box when our template is active */
+div[contenteditable="true"]:has(.prompt-pro-label) {
+    border-left: 3px solid #10a37f !important; /* ChatGPT Green */
+    padding-left: 15px !important;
+}
